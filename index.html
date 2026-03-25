@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Akağa Sigorta</title>
+  <meta
+    name="description"
+    content="Akağa Sigorta - Güvenilir sigorta çözümleri, çözüm ortakları, ürünler ve hızlı WhatsApp iletişimi."
+  />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="site-bg">
+    <div class="bg-blob blob-1"></div>
+    <div class="bg-blob blob-2"></div>
+    <div class="bg-grid"></div>
+  </div>
+
+  <header class="topbar">
+    <div class="container topbar-inner">
+      <div class="topbar-left">
+        <span>09:00 - 18:00</span>
+        <span class="dot"></span>
+        <span>info@akagasigorta.com</span>
+      </div>
+      <div class="topbar-right">
+        <span>+90 539 578 50 15</span>
+        <span class="dot"></span>
+        <span>+90 543 660 31 96</span>
+      </div>
+    </div>
+  </header>
+
+  <header class="navbar" id="navbar">
+    <div class="container nav-inner">
+      <a href="#hero" class="brand">
+        <img src="assets/logo/akaga-logo.png" alt="Akağa Sigorta Logo" />
+      </a>
+
+      <nav class="nav-links" id="navLinks">
+        <a href="#about">Hakkımızda</a>
+        <a href="#products">Ürünler</a>
+        <a href="#partners">Kurumlar</a>
+        <a href="#contact">İletişim</a>
+      </nav>
+
+      <div class="nav-right">
+        <a
+          href="https://wa.me/905436603196?text=Merhaba,%20Akağa%20Sigorta'dan%20bilgi%20almak%20istiyorum."
+          target="_blank"
+          class="nav-cta"
+        >
+          WhatsApp
+        </a>
+
+        <button class="menu-btn" id="menuBtn" aria-label="Menüyü aç">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero hero-slider-section" id="hero">
+      <div class="hero-slider-wrap">
+        <div class="hero-slider" id="heroSlider">
+          <article class="hero-slide hero-slide-1 active" style="--hero-image: url('assets/image/akaga-aile.png');">
+            <div class="hero-slide-media"></div>
+            <div class="hero-slide-overlay"></div>
+
+            <div class="hero-slide-inner">
+              <div class="hero-copy hero-copy-light">
+                <div class="hero-badge">
+                  <span class="badge-line"></span>
+                  <span>2012'DEN BU YANA GÜVEN ODAKLI HİZMET</span>
+                </div>
+
+                <h1>Aileniz, eviniz ve aracınız için güven veren sigorta çözümleri.</h1>
+
+                <p class="hero-description">
+                  Akağa Sigorta, bireysel ve kurumsal ihtiyaçlara uygun poliçe
+                  seçeneklerini sade, anlaşılır ve ulaşılabilir bir hizmet
+                  yaklaşımıyla sunar.
+                </p>
+
+                <div class="hero-actions">
+                  <a
+                    href="https://wa.me/905436603196?text=Merhaba,%20Akağa%20Sigorta'dan%20bilgi%20almak%20istiyorum."
+                    target="_blank"
+                    class="btn btn-primary"
+                  >
+                    Hemen Ulaşın
+                  </a>
+                  <a href="#products" class="btn btn-secondary hero-btn-light">Ürünleri Keşfet</a>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="hero-slide hero-slide-2" style="--hero-image: url('assets/image/akaga-arac.png');">
+            <div class="hero-slide-media"></div>
+            <div class="hero-slide-overlay"></div>
+
+            <div class="hero-slide-inner">
+              <div class="hero-copy hero-copy-light">
+                <div class="hero-badge">
+                  <span class="badge-line"></span>
+                  <span>HIZLI TEKLİF • NET SÜREÇ • GÜVENLİ DESTEK</span>
+                </div>
+
+                <h1>Araç sigortasında modern hizmet, hızlı iletişim ve doğru yönlendirme.</h1>
+
+                <p class="hero-description">
+                  Trafik ve kasko çözümlerinde ihtiyacınıza uygun teminatları
+                  güvenilir iletişim ve anlaşılır süreç yönetimiyle bir araya
+                  getiriyoruz.
+                </p>
+
+                <div class="hero-actions">
+                  <a href="#products" class="btn btn-primary">Sigorta Ürünleri</a>
+                  <a href="#contact" class="btn btn-secondary hero-btn-light">İletişime Geçin</a>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="hero-slide hero-slide-3" style="--hero-image: url('assets/image/akaga-emlak.png');">
+            <div class="hero-slide-media"></div>
+            <div class="hero-slide-overlay"></div>
+
+            <div class="hero-slide-inner">
+              <div class="hero-copy hero-copy-light">
+                <div class="hero-badge">
+                  <span class="badge-line"></span>
+                  <span>KONUT • EMLAK • GÜVENCE ODAKLI YAKLAŞIM</span>
+                </div>
+
+                <h1>Eviniz ve yaşam alanlarınız için güvenilir koruma çözümleri.</h1>
+
+                <p class="hero-description">
+                  Konut, DASK ve yaşam alanına yönelik sigorta ihtiyaçlarında,
+                  süreci sizin için sadeleştiriyor ve doğru teminatlara hızlıca
+                  ulaşmanızı sağlıyoruz.
+                </p>
+
+                <div class="hero-actions">
+                  <a href="#partners" class="btn btn-primary">Çözüm Ortakları</a>
+                  <a
+                    href="https://wa.me/905436603196?text=Merhaba,%20Akağa%20Sigorta'dan%20bilgi%20almak%20istiyorum."
+                    target="_blank"
+                    class="btn btn-secondary hero-btn-light"
+                  >
+                    WhatsApp'tan Yazın
+                  </a>
+                </div>
+              </div>
+            </div>
+          </article>
+          <article class="hero-slide hero-slide-4" style="--hero-image: url('assets/image/akaga-saglik.png');">
+              <div class="hero-slide-media"></div>
+              <div class="hero-slide-overlay"></div>
+
+              <div class="hero-slide-inner">
+                <div class="hero-copy hero-copy-light">
+                  <div class="hero-badge">
+                    <span class="badge-line"></span>
+                    <span>SAĞLIK • GÜVENCE • HIZLI İLETİŞİM</span>
+                  </div>
+
+                  <h1>Sağlık sigortasında ihtiyaçlarınıza uygun çözümler sunuyoruz.</h1>
+
+                  <p class="hero-description">
+                    Tamamlayıcı sağlık ve bireysel sağlık sigortalarında, size uygun
+                    teminatları sade, anlaşılır ve güven veren bir hizmet yaklaşımıyla
+                    sunuyoruz.
+                  </p>
+
+                  <div class="hero-actions">
+                    <a href="#products" class="btn btn-primary">Ürünleri İncele</a>
+                    <a
+                      href="https://wa.me/905436603196?text=Merhaba,%20sa%C4%9Fl%C4%B1k%20sigortas%C4%B1%20hakk%C4%B1nda%20bilgi%20almak%20istiyorum."
+                      target="_blank"
+                      class="btn btn-secondary hero-btn-light"
+                    >
+                      WhatsApp'tan Bilgi Al
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </article>
+
+        </div>
+
+        <button class="hero-nav hero-prev" id="heroPrev" aria-label="Önceki slayt">‹</button>
+        <button class="hero-nav hero-next" id="heroNext" aria-label="Sonraki slayt">›</button>
+
+        <div class="hero-dots" id="heroDots">
+          <button class="hero-dot active" aria-label="1. slayt"></button>
+          <button class="hero-dot" aria-label="2. slayt"></button>
+          <button class="hero-dot" aria-label="3. slayt"></button>
+          <button class="hero-dot" aria-label="4. slayt"></button>
+        </div>  
+      </div>
+    </section>
+
+    <section class="section-pad" id="about">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="section-tag">HAKKIMIZDA</p>
+          <h2>Akağa Sigorta</h2>
+          <p class="section-text section-head-text">
+            Akağa Sigorta, 2012 yılından bu yana sigorta ihtiyaçlarına güvenilir,
+            anlaşılır ve çözüm odaklı yaklaşımıyla hizmet vermektedir. Doğru
+            teminatı, ulaşılabilir iletişimi ve hızlı teklif sürecini ön planda
+            tutan acentemiz; bireysel ve kurumsal müşterilerine güven veren bir
+            hizmet anlayışı sunar.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-pad section-soft" id="products">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="section-tag">ÜRÜNLERİMİZ</p>
+          <h2>Başlıca Sigorta Çözümlerimiz</h2>
+          <p class="section-text section-head-text">
+            Farklı ihtiyaçlara yönelik sigorta ürünlerini sade, anlaşılır ve
+            güven veren bir yapı içinde sunuyoruz.
+          </p>
+        </div>
+
+        <div class="cards-grid">
+          <article class="product-card reveal">
+            <div class="product-icon">AS</div>
+            <h3>Araç Sigortaları</h3>
+            <p>Trafik sigortası, kasko, marka kasko ve yeşil kart çözümleri.</p>
+          </article>
+
+          <article class="product-card reveal delay-1">
+            <div class="product-icon">KS</div>
+            <h3>Konut Sigortaları</h3>
+            <p>Konut sigortası, DASK ve yaşam alanına yönelik ek güvence seçenekleri.</p>
+          </article>
+
+          <article class="product-card reveal delay-2">
+            <div class="product-icon">SS</div>
+            <h3>Sağlık Sigortaları</h3>
+            <p>Tamamlayıcı sağlık, bireysel sağlık ve farklı sağlık teminatları.</p>
+          </article>
+
+          <article class="product-card reveal">
+            <div class="product-icon">SY</div>
+            <h3>Seyahat Sigortaları</h3>
+            <p>Yurt dışı seyahat ve farklı seyahat ihtiyaçlarına uygun poliçeler.</p>
+          </article>
+
+          <article class="product-card reveal delay-1">
+            <div class="product-icon">TK</div>
+            <h3>Ticari ve Kurumsal</h3>
+            <p>İş yeri, KOBİ, otel, nakliyat ve çeşitli ticari risklere yönelik çözümler.</p>
+          </article>
+
+          <article class="product-card reveal delay-2">
+            <div class="product-icon">SR</div>
+            <h3>Sorumluluk Sigortaları</h3>
+            <p>Mesleki ve kurumsal sorumluluk alanlarına yönelik teminat seçenekleri.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-pad" id="partners">
+  <div class="container">
+    <div class="section-head reveal">
+      <h2>ÇÖZÜM ORTAKLARIMIZ</h2>
+    </div>
+
+        <div class="partner-grid partner-logo-grid">
+          <div class="partner-item reveal">
+            <img src="assets/partners/allianz.png" alt="Allianz Logo" />
+            <span>Allianz</span>
+          </div>
+
+          <div class="partner-item reveal delay-1">
+            <img src="assets/partners/sompo.png" alt="Sompo Logo" />
+            <span>Sompo</span>
+          </div>
+
+          <div class="partner-item reveal delay-2">
+            <img src="assets/partners/ray.png" alt="Ray Sigorta Logo" />
+            <span>Ray</span>
+          </div>
+
+          <div class="partner-item reveal">
+            <img src="assets/partners/unico.png" alt="Unico Logo" />
+            <span>Unico</span>
+          </div>
+
+          <div class="partner-item reveal delay-1">
+            <img src="assets/partners/magdeburger.png" alt="Magdeburger Logo" />
+            <span>Magdeburger</span>
+          </div>
+
+          <div class="partner-item reveal delay-2">
+            <img src="assets/partners/quick.png" alt="Quick Sigorta Logo" />
+            <span>Quick</span>
+          </div>
+
+          <div class="partner-item reveal">
+            <img src="assets/partners/atlas.png" alt="Atlas Logo" />
+            <span>Atlas</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-pad" id="location">
+  <div class="container location-container">
+    <div class="location-block reveal">
+      <p class="section-tag">ADRES</p>
+      <h2>KONUMUMUZ</h2>
+      <p class="section-text">
+        Sorularınız, teklif talepleriniz ve sigorta ihtiyaçlarınız için
+        ofisimize kolayca ulaşabilirsiniz.
+      </p>
+
+      <div class="contact-map-wrap">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6410.25397054203!2d32.002843!3d36.551051!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14dc99e7df0f51f9%3A0x67b70c5bca4f9c30!2sAka%C4%9Fa%20Sigorta%20Arac%C4%B1l%C4%B1k%20Hizmetleri!5e0!3m2!1str!2str!4v1774375238178!5m2!1str!2str"
+          style="border:0;"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          title="Akağa Sigorta Konumu">
+        </iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <section class="section-pad" id="contact">
+      <div class="container contact-grid">
+        <div class="contact-left reveal">
+          <p class="section-tag">İLETİŞİM</p>
+          <h2>Bize Ulaşın</h2>
+          <p class="section-text">
+            Sorularınız, teklif talepleriniz ve sigorta ihtiyaçlarınız için
+            bizimle iletişime geçebilirsiniz.
+          </p>
+        </div>
+
+        <div class="contact-card reveal delay-1">
+          <div class="contact-row">
+            <span>Telefon 1</span>
+            <strong>+90 539 578 50 15</strong>
+          </div>
+          <div class="contact-row">
+            <span>Telefon 2</span>
+            <strong>+90 543 660 31 96</strong>
+          </div>
+          <div class="contact-row">
+            <span>E-posta</span>
+            <strong>info@akagasigorta.com</strong>
+          </div>
+          <div class="contact-row">
+            <span>Çalışma Saatleri</span>
+            <strong>09:00 - 18:00</strong>
+          </div>
+          <div class="contact-row">
+            <span>Adres</span>
+            <strong>Şekerhane, Alaiye Cd. No: 63 /1, 07400 Alanya/Antalya</strong>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <a
+    href="https://wa.me/905436603196?text=Merhaba,%20Akağa%20Sigorta'dan%20bilgi%20almak%20istiyorum."
+    class="whatsapp-button"
+    target="_blank"
+    aria-label="WhatsApp ile iletişime geç"
+  >
+    <svg viewBox="0 0 32 32" aria-hidden="true">
+      <path fill="currentColor" d="M19.11 17.21c-.27-.14-1.58-.78-1.83-.87-.24-.09-.42-.14-.6.14-.18.27-.69.87-.85 1.05-.15.18-.31.2-.58.07-.27-.14-1.14-.42-2.17-1.35-.8-.71-1.34-1.59-1.49-1.86-.16-.27-.02-.42.12-.56.12-.12.27-.31.4-.47.13-.16.18-.27.27-.45.09-.18.05-.34-.02-.47-.07-.14-.6-1.44-.82-1.97-.22-.52-.44-.45-.6-.46h-.51c-.18 0-.47.07-.72.34-.24.27-.94.92-.94 2.23s.97 2.58 1.11 2.76c.13.18 1.9 2.9 4.6 4.07.64.28 1.14.44 1.53.56.64.2 1.22.17 1.68.1.51-.08 1.58-.65 1.8-1.28.22-.63.22-1.17.15-1.28-.06-.11-.24-.18-.51-.31Z"/>
+      <path fill="currentColor" d="M16.03 3.2c-7.03 0-12.74 5.71-12.74 12.73 0 2.24.59 4.42 1.71 6.34L3.2 28.8l6.71-1.76a12.7 12.7 0 0 0 6.12 1.56h.01c7.02 0 12.73-5.71 12.73-12.74 0-3.4-1.32-6.59-3.72-8.99A12.66 12.66 0 0 0 16.03 3.2Zm0 23.23h-.01a10.54 10.54 0 0 1-5.37-1.47l-.38-.23-3.98 1.04 1.06-3.88-.25-.4a10.5 10.5 0 0 1-1.62-5.56c0-5.81 4.73-10.54 10.55-10.54 2.81 0 5.45 1.09 7.43 3.08a10.46 10.46 0 0 1 3.08 7.46c0 5.82-4.73 10.55-10.52 10.55Z"/>
+    </svg>
+    <span>WhatsApp</span>
+  </a>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <img src="assets/logo/akaga-logo.png" alt="Akağa Sigorta Logo" />
+        <p>
+          Akağa Sigorta, 2012 yılından bu yana bireysel ve kurumsal sigorta
+          ihtiyaçlarına güvenilir ve anlaşılır çözümler sunar.
+        </p>
+      </div>
+
+      <div class="footer-links">
+        <h4>Hızlı Erişim</h4>
+        <a href="#about">Hakkımızda</a>
+        <a href="#products">Ürünler</a>
+        <a href="#partners">Kurumlar</a>
+        <a href="#contact">İletişim</a>
+      </div>
+
+      <div class="footer-contact">
+        <h4>İletişim</h4>
+        <p>+90 539 578 50 15</p>
+        <p>+90 543 660 31 96</p>
+        <p>info@akagasigorta.com</p>
+        <p>09:00 - 18:00</p>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <p>© <span id="year"></span> Akağa Sigorta. Tüm hakları saklıdır.</p>
+      <p class="footer-credit">Tasarım: HI DIGITAL TEKNOLOJİ HİZMETLERİ</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
